@@ -9,25 +9,28 @@
 
   <!-- https://docs.microsoft.com/en-us/windows/uwp/design/style/color -->
   <!-- https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/xaml-theme-resources#the-xaml-color-ramp-and-theme-dependent-brushes -->
+  <!-- https://github.com/microsoft/PowerToys/blob/master/src/modules/launcher/PowerLauncher/Themes/Light.xaml -->
 
   <Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
     <!-- BaseHight -->
     <Setter Property="Foreground" Value="#ff000000" />
-    <Setter Property="Background" Value="#ffffff" />
+    <!-- Light.xaml: SystemChromeLow -->
+    <Setter Property="Background" Value="#fff2f2f2" />
     <Setter Property="FontSize" Value="26" />
     <Setter Property="Margin" Value="10 4 10 3" />
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="{x:Type TextBox}">
-          <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="#ffffff" SnapsToDevicePixels="True">
+          <!-- Light.xaml: SystemChromeLow -->
+          <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="#fff2f2f2" SnapsToDevicePixels="True">
             <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" Background="{TemplateBinding Background}">
               <ScrollViewer.ContentTemplate>
                 <DataTemplate>
-                  <Grid Background="{Binding Background, ElementName=PART_ContentHost}" RenderOptions.ClearTypeHint="Enabled">
+                  <Grid Background="{Binding Background, ElementName=PART_ContentHost}">
                     <!-- Add Magnifying Glass icon to search box (Requires Segoe MDL2 Font bundled with Windows 10) -->
                     <!-- U+E721 -->
-                    <!-- BaseMedium -->
-                    <Label HorizontalAlignment="Right" VerticalAlignment="Center" Padding="0,0,10,0" Content="" FontFamily="Segoe MDL2 Assets" FontSize="26" Foreground="#99000000" />
+                    <!-- Light.xaml: TextControlPlaceholderForeground -->
+                    <Label HorizontalAlignment="Right" VerticalAlignment="Center" Padding="0,0,10,0" Content="" FontFamily="Segoe Fluent Icons" FontSize="26" Foreground="#ff5b5b5b" />
                     <ContentPresenter Content="{Binding Path=Content, ElementName=PART_ContentHost}" />
                   </Grid>
                 </DataTemplate>
@@ -40,7 +43,8 @@
   </Style>
   
   <Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
-    <Setter Property="Background" Value="#ffffff"/>
+    <!-- Light.xaml: SystemChromeLow -->
+    <Setter Property="Background" Value="#ffF2F2F2"/>
     <Setter Property="CornerRadius" Value="3"/>
     <Setter Property="Padding" Value="0 4 0 4" />
     <Setter Property="Margin" Value="35" />
@@ -68,7 +72,7 @@
   <!-- Item Style -->
   <Style x:Key="ItemTitleStyle"  BasedOn="{StaticResource BaseItemTitleStyle}" TargetType="{x:Type TextBlock}">
     <!-- BaseMediumHigh -->
-    <Setter Property="Foreground" Value="#cc000000" />
+    <Setter Property="Foreground" Value="#ff000000" />
     <Setter Property="FontSize" Value="16" />
   </Style>
   <Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}" >
@@ -78,16 +82,17 @@
   </Style>
   <Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}"  TargetType="{x:Type TextBlock}" >
     <!-- Dark BaseHigh -->
-    <Setter Property="Foreground" Value="#ffffffff" />
+    <Setter Property="Foreground" Value="#ff000000" />
     <Setter Property="FontSize" Value="16" />
   </Style>
   <Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}" >
     <!-- Dark BaseMediumLow -->
-    <Setter Property="Foreground" Value="#66ffffff" />
+    <Setter Property="Foreground" Value="#cc000000" />
     <Setter Property="FontSize" Value="12" />
   </Style>
   
-  <SolidColorBrush x:Key="ItemSelectedBackgroundColor">#0078d4</SolidColorBrush>
+  <!-- ListAccentLow -->
+  <SolidColorBrush x:Key="ItemSelectedBackgroundColor">#660078d4</SolidColorBrush>
 
   <!-- button style in the middle of the scrollbar -->
   <Style x:Key="ThumbStyle" BasedOn="{StaticResource BaseThumbStyle}" TargetType="{x:Type Thumb}">
