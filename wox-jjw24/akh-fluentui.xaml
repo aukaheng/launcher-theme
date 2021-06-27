@@ -17,7 +17,7 @@
     <!-- Light.xaml: SystemChromeLow -->
     <Setter Property="Background" Value="#fff2f2f2" />
     <Setter Property="FontSize" Value="26" />
-    <Setter Property="Margin" Value="10 4 10 7" />
+    <Setter Property="Margin" Value="10 4 10 3" />
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="{x:Type TextBox}">
@@ -46,7 +46,7 @@
     <!-- Light.xaml: SystemChromeLow -->
     <Setter Property="Background" Value="#ffF2F2F2"/>
     <Setter Property="CornerRadius" Value="3"/>
-    <Setter Property="Padding" Value="0 4 0 0" />
+    <Setter Property="Padding" Value="0 4 0 4" />
     <Setter Property="Margin" Value="35" />
     <Setter Property="Window.Effect">
       <Setter.Value>
