@@ -21,7 +21,7 @@
         "font" : "System",
         "color" : "#000000FF"
       },
-      "iconPaddingHorizontal" : 8,
+      "iconPaddingHorizontal" : 10,
       "roundness" : 0,
       "paddingVertical" : 6,
       "iconSize" : 32
@@ -29,7 +29,7 @@
     "search" : {
       "backgroundSelected" : "#B2D7FFFF",
       "paddingHorizontal" : 12,
-      "spacing" : 10,
+      "spacing" : 8,
       "text" : {
         "size" : 24,
         "colorSelected" : "#050605FF",
@@ -38,17 +38,17 @@
       },
       "background" : "#F3F3F3FF",
       "roundness" : 0,
-      "paddingVertical" : 6
+      "paddingVertical" : 12
     },
     "window" : {
       "color" : "#F3F3F3FF",
       "paddingHorizontal" : 0,
       "width" : 600,
       "borderPadding" : 1,
-      "borderColor" : "#C8C8C8FF",
+      "borderColor" : "#aaaaaaff",
       "blur" : 0,
-      "roundness" : 3,
-      "paddingVertical" : 2
+      "roundness" : 5,
+      "paddingVertical" : 0
     },
     "credit" : "akh",
     "separator" : {
