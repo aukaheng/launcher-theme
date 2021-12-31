@@ -1,0 +1,160 @@
+[
+  {
+    "SettingName":"UseWallpaperBackground",
+    "Value":false
+  },
+  {
+    "SettingName":"Use desktop wallpaper",
+    "Value":false
+  },
+  {
+    "SettingName":"Select wallpaper",
+    "Value":{
+      "Information":null
+    }
+  },
+  {
+    "SettingName":"CustomWallpaperImagePath",
+    "Value":"avares://FluentSearch/Resources/Themes/Azure_Dark.png"
+  },
+  {
+    "SettingName":"WallpaperImagePath",
+    "Value":""
+  },
+  {
+    "SettingName":"Themes",
+    "Value":"Custom"
+  },
+  {
+    "SettingName":"ShowAdvancedSettings",
+    "Value":true
+  },
+  {
+    "SettingName":"SavedSearchResultsWidth",
+    "Value":400
+  },
+  {
+    "SettingName":"SavedWindowWidth",
+    "Value":850
+  },
+  {
+    "SettingName":"SavedWindowHeight",
+    "Value":614
+  },
+  {
+    "SettingName":"SavedSettingWindowHeight",
+    "Value":650
+  },
+  {
+    "SettingName":"SavedSettingWindowWidth",
+    "Value":940
+  },
+  {
+    "SettingName":"Keep window size after restart",
+    "Value":true
+  },
+  {
+    "SettingName":"EnableAnimations",
+    "Value":false
+  },
+  {
+    "SettingName":"EnableWindowAnimations",
+    "Value":true
+  },
+  {
+    "SettingName":"EnablePopupAnimations",
+    "Value":true
+  },
+  {
+    "SettingName":"EnableResultsAnimations",
+    "Value":false
+  },
+  {
+    "SettingName":"AnimationStyle",
+    "Value":0
+  },
+  {
+    "SettingName":"AnimationDuration",
+    "Value":100
+  },
+  {
+    "SettingName":"DynamicSearchWindowHeight",
+    "Value":false
+  },
+  {
+    "SettingName":"MaxResultsHeight",
+    "Value":9
+  },
+  {
+    "SettingName":"Apply accent color on background",
+    "Value":false
+  },
+  {
+    "SettingName":"Apply accent color on window borders",
+    "Value":false
+  },
+  {
+    "SettingName":"ShowInTaskbar",
+    "Value":false
+  },
+  {
+    "SettingName":"Window style",
+    "Value":0
+  },
+  {
+    "SettingName":"Show search results when opened recently",
+    "Value":false
+  },
+  {
+    "SettingName":"FontFamily",
+    "Value":{
+      "SelectedItem":"Segoe UI"
+    }
+  },
+  {
+    "SettingName":"FontScale",
+    "Value":1.26
+  },
+  {
+    "SettingName":"Minimalistic user interface",
+    "Value":false
+  },
+  {
+    "SettingName":"Show operation\u0027s shortcuts",
+    "Value":false
+  },
+  {
+    "SettingName":"Show progress bar",
+    "Value":false
+  },
+  {
+    "SettingName":"Show windows above others",
+    "Value":true
+  },
+  {
+    "SettingName":"SelectedTheme",
+    "Value":1
+  },
+  {
+    "SettingName":"UseSystemTheme",
+    "Value":false
+  },
+  {
+    "SettingName":"ColorSetting",
+    "Value":{
+      "ColorValue":4293256677
+    }
+  },
+  {
+    "SettingName":"Accent color",
+    "Value":0
+  },
+  {
+    "SettingName":"Transparency effect",
+    "Value":0
+  },
+  {
+    "SettingName":"WindowOpacity",
+    "Value":1
+  }
+]
