@@ -9,16 +9,20 @@
   },
   {
     "SettingName":"SavedWindowHeight",
-    "Value":614
+    "Value":680
   },
   {
     "SettingName":"Keep window size after restart",
     "Value":true
   },
   {
+    "SettingName":"Minimalistic user interface",
+    "Value":true
+  },
+  {
     "SettingName":"ColorSetting",
     "Value":{
-      "ColorValue":4287742438
+      "ColorValue":428838799
     }
   }
 ]
