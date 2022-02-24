@@ -9,14 +9,10 @@
   },
   {
     "SettingName":"SavedWindowHeight",
-    "Value":680
+    "Value":615
   },
   {
     "SettingName":"Keep window size after restart",
-    "Value":true
-  },
-  {
-    "SettingName":"Minimalistic user interface",
     "Value":true
   },
   {
