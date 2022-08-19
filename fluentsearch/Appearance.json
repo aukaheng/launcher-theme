@@ -1,24 +1,16 @@
 [
   {
     "SettingName":"SavedSearchResultsWidth",
-    "Value":420
+    "Value":380
   },
   {
     "SettingName":"SavedWindowWidth",
-    "Value":870
-  },
-  {
-    "SettingName":"SavedWindowHeight",
-    "Value":623
-  },
-  {
-    "SettingName":"Keep window size after restart",
-    "Value":true
-  },
+    "Value":830
+  }
   {
     "SettingName":"ColorSetting",
     "Value":{
-      "ColorValue":428838799
+      "ColorValue":4294704123
     }
   }
 ]
