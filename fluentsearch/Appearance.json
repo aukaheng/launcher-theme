@@ -1,16 +1,18 @@
 [
+  // 8
   {
-    "SettingName":"SavedSearchResultsWidth",
-    "Value":380
+    "SettingName":"SavedWindowHeight",
+    "Value":614
   },
-  {
-    "SettingName":"SavedWindowWidth",
-    "Value":830
-  }
+  // #fcfcfc
   {
     "SettingName":"ColorSetting",
     "Value":{
-      "ColorValue":4294704123
+      "ColorValue":4294769916
     }
+  },
+  {
+    "SettingName":"WindowOpacity",
+    "Value":0.85
   }
 ]
